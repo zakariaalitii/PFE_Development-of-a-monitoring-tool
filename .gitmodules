@@ -1,0 +1,3 @@
+[submodule "deadpass"]
+	path = deadpass
+	url = https://codeberg.org/zesty/deadpass

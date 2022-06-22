@@ -1,0 +1,38 @@
+{
+  "master": {
+    "collect_data_from_master": false,
+    "block_push_retries": 3,
+    "block_vote_time": 5000,
+    "vote_push_retries": 4,
+    "poll_timeout": 2
+  },
+  "node": {
+    "report_timeframe": 5,
+    "db_struct": {
+      "cpu": [
+        "TOTAL",
+        "USER"
+      ],
+      "memory": [
+        "TOTAL",
+        "USED"
+      ],
+      "network": [
+        "NAME",
+        "MAC",
+        "IP_ADDRESS",
+        "STATUS",
+        "RX_PACKETS",
+        "TX_PACKETS"
+      ],
+      "storage": [
+        "NAME",
+        "FILESYSTEM_TYPE",
+        "FREE",
+        "TOTAL",
+        "TOTAL_NODES",
+        "FREE_NODES"
+      ]
+    }
+  }
+}

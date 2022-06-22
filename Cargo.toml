@@ -1,0 +1,10 @@
+[workspace]
+members = [
+	"nyumt-node",
+    "nyumt-proto",
+    "nyumt-client-core",
+    "nyumt-client-cli"
+]
+
+[patch.crates-io]
+libp2p-noise = { path = "./libp2p-noise" }
